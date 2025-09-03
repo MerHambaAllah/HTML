@@ -1,0 +1,56 @@
+p {
+  color: blue;
+  font-style: italic;
+}
+
+div {
+    color: green;
+    font-style: initial;
+}
+
+b {
+    font-size: 20px;
+}
+
+.pink {
+    color: white;
+    background: pink;
+    padding: 5px;
+}
+
+.kotak {
+    color: aqua;
+    background: rgb(14, 29, 169);
+    padding: 5px;
+}
+
+.text-white {
+    color: white;
+}
+
+.bg-teal {
+    background: teal;
+}
+
+#header {
+    background: teal;
+    color: white;
+    height: 100px;
+    padding: 50px;
+}
+
+input[type=text] {
+    background: none;
+    color: cyan;
+    padding: 10px;
+    border: 1px solid cyan;
+}
+
+a:hover {
+    color: teal;
+    background: white;
+}
+
+p span {
+    color: magenta;
+}

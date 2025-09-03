@@ -1,0 +1,11 @@
+header{
+ font-style: italic;
+    background: rgb(34,193,195);
+        background: linear-gradient(90deg, rgb(25, 116, 118) 0%, rgb(188, 174, 13) 100%);
+}
+header h1 {
+    text-align: center;
+}
+header p{
+    text-align: right;
+}
