@@ -1,0 +1,22 @@
+p {
+    color: green;
+}
+h1 {
+    color: #ff5733;
+}
+h2 {
+    color: rgb(255, 99, 71);
+}
+.HSL {
+    background-color: hsl(120, 100%, 50%);
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+}
+.HSLA {
+    color: #ff5733;
+    background-color: hsla(120, 100%, 50%, 0.7);
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+}
