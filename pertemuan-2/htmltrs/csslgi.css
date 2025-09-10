@@ -1,0 +1,29 @@
+.img {
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    display: block;
+    border-radius: 7%;
+}
+.h1 {
+    text-align: center;
+    color: blue;
+}
+body {
+    background-color: powderblue;
+}
+.dufan {
+    color: blue;
+}
+.lokasi {
+    color: blue;
+}
+.dayatarik {
+    color: blue;
+}
+.fasilitas {
+    color: blue;
+}
+.akses {
+    color: blue;
+} 
