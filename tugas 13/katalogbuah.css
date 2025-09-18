@@ -1,0 +1,56 @@
+.imgjeruk {
+    width: 200px;
+    height: 200px;
+    border: 5px solid orange;
+    border-radius: 15px;
+}
+.hjeruk {
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pjeruk {
+  border-style: dashed;
+  margin: auto;
+  display: inline-block;
+}
+
+
+
+.imgkiwi {
+    width: 200px;
+    height: 200px;
+    border: 5px solid green;
+    border-radius: 15px;
+}
+.hkiwi {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pkiwi {
+  border-style: dashed;
+  margin: auto;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+.hmangga {
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+.pmangga {
+  border-style: dashed;
+  margin: auto;
+  display: inline-block;
+}
+    
+.imgmangga {
+    width: 200px;
+    height: 200px;
+    border: 5px solid yellow;
+    border-radius: 15px;
+}

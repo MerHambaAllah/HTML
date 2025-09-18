@@ -1,0 +1,38 @@
+.h1 {
+    font-size: 24px;
+    color: slateblue;
+}
+.fontbesar {
+    font-size: x-large;
+    color: tomato;
+}
+.fontkecil {
+    font-size: small;
+    color: teal;
+}
+.tebal {
+    font-weight: bold;
+    color: purple;
+}
+.light {
+    font-weight: lighter;
+    color: gray;
+}
+.miring {
+    font-style: italic;
+    color: orange;
+}
+.kutipan {
+    font-style: italic;
+    font-size: larger;
+    color: darkblue;
+    padding: 10px;
+    width: 300px;
+    border: 2px solid darkblue;
+    background-color: lightgray;
+}
+.asimovian-regular {
+  font-family: "Asimovian", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
