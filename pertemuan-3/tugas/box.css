@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    background: #ececec;
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 12px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.cards-row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 200px;
+    background: #f4f4f4;
+    border: 2px solid #bbb;
+    border-radius: 5px;
+    padding: 14px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 3px;
+    margin-bottom: 7px;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    margin: 5px 0;
+}
+
+.card-desc {
+    font-size: 0.97rem;
+    color: #444;
+    margin-bottom: 11px;
+    text-align: left;
+}
+
+.card-btn {
+    padding: 7px 18px;
+    background: #bdbdbd;
+    color: #222;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 0.97rem;
+}
+.card-btn:hover {
+    background: #999;
+}
+
+.feedback-card {
+    width: 100%;
+    background: #fafafa;
+    border: 1px dashed #a0cfa0;
+    border-radius: 5px;
+    padding: 12px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.feedback-name {
+    margin: 0 0 5px 0;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.feedback-comment {
+    font-size: 0.97rem;
+    color: #333;
+    margin: 0;
+}
