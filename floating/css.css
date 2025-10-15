@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.social-bar {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.social-bar a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 3px 0;
+  border-radius: 0 5px 5px 0;
+  transition: 0.3s;
+}
+
+.whatsapp { background: #25D366; }
+.pinterest { background: #E60023; }
+.facebook { background: #3b5998; }
+.twitter { background: #1DA1F2; }
+.linkedin { background: #0077B5; }
+.more { background: #FF6600; }
+
+.content {
+  margin-left: 80px;
+  padding: 20px;
+}
