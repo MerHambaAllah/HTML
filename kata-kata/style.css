@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #4d4b4b 0%, #848383 100%);
+  padding: 20px;
+  background-image: url(./j,jbb.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.poster {
+  width: 100%;
+  max-width: 500px;
+  background: linear-gradient(180deg, #818181 0%, #ffffff 100%);
+  border-radius: 20px;
+  padding: 40px 30px;
+  text-align: center;
+  animation: breathing 3s ease-in-out infinite;
+  transition: transform 0.3s ease;
+}
+
+.poster:hover {
+  transform: scale(1.02);
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: #d4a574;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.title {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  color: #c75d3b;
+  margin-bottom: 20px;
+  animation: slideUp 0.8s ease-out;
+  background: linear-gradient(135deg, #000000, #565656);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.title:hover {
+  transform: translateY(-5px);
+  filter: brightness(1.1);
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.motivasi {
+  font-size: 1.2rem;
+  color: #313030;
+  line-height: 1.8;
+  margin: 30px 0;
+  font-weight: 500;
+  animation: fadeIn 1.2s ease-in 0.3s both;
+}
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.7;
+  }
+}
+
+.button-container {
+  margin-top: 30px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 12px 24px;
+  border: 2px solid #000000;
+  background: #fff;
+  color: #000000;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #696969;
+  color: #fff;
+  transform: scale(1.08);
+  box-shadow: 0 5px 15px rgba(199, 93, 59, 0.3);
+}
+
+.btn.like {
+  background: linear-gradient(135deg, #000000, #000000);
+  border-color: #818080;
+  color: #fff;
+}
+
+.btn.like:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+.kanan {
+  position: relative;
+  text-align: right;
+  animation: go 3s ease-in-out infinite alternate;
+}
+.kiri {
+  position: relative;
+  text-align: left;
+  animation: go2 3s ease-in-out infinite alternate;
+}
+@keyframes go {
+  0% {
+    bottom: 50px;
+  }
+  100% {
+    bottom: 200px;
+  }
+}
+@keyframes go2 {
+  0% {
+    bottom: 200px;
+  }
+  100% {
+    bottom: 50px;
+  }
+}
